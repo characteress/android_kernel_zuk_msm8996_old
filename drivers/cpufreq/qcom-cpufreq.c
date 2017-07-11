@@ -341,7 +341,7 @@ static struct cpufreq_frequency_table *cpufreq_parse_dt(struct device *dev,
 
 		underclk_max_perfcl = UNDERCLK_MAX_PERFCL_MSM8996;
 		underclk_max_pwrcl = UNDERCLK_MAX_PWRCL_MSM8996;
-// #endif
+#endif
 
 	/* Parse list of usable CPU frequencies. */
 	if (!of_find_property(dev->of_node, tbl_name, &nf))
